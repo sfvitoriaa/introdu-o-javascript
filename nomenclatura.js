@@ -11,3 +11,12 @@
 // Ex: const nome = "daniel"; -> caso na proxima venha nome = "André"; * teremos erro
 // let -> permite a reatribução de valor
 // Ex: let data = "10/12/2025"; -> caso venha a seguir data = "13/12/2025"; não teremos problema
+
+// const data de nascimento = "" X ERRO
+// const soma2+2 = 4 X ERRO
+// const 2 = 4 X ERRO
+const dataDeNascimento = "08/05/1991" // -> Correto padrão camelCase
+const data_de_nascimento = "08/05/1991" // -> Correto padrão snake_case
+
+console.log('Data de nascimento: ', dataDeNascimento)
+console.log('Data de nascimento: ', data_de_nascimento)
